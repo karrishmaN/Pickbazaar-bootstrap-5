@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Description" content="PickBazar - Landing page - Bootstrap 5" />
+    <title>PickBazar - Landing page - Bootstrap 5</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    
+  </head>
+  <body>
+  
+    <!--Nav bar parent class-->
+    <div class="container-fluid"> 
+      <!--Nav bar class-->
+      <nav class="navbar bg-white navbar-expand-lg">
+        
+        <img src="/pickbazaar.webp" alt="pickbazaar" width="120px" />
+        <!--nav class will have a default of display:flex-->
+        <ul class="nav "> 
+            <!--Nav items for list , disabled for light color--><!--Nav link for a-->
+          <li class="nav-item">
+            <a class=" nav-link" href="#">Shops</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" >Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" >FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" >Contact</a>
+          </li>
+        </ul>
+       <form class="d-flex">
+       <i class="fa-solid fa-magnifying-glass  p-2"></i>
+       <input class="fa-search rounded-3 bg-light border-0" type="search" name="" id="" placeholder=" Search(type atleast 3 character)"></span>
+       </form><!--Search button
+          
+        <button class="btn fs-6 bg-light rounded-2 disabled "><i class="fa-solid fa-magnifying-glass"></i>
+          Search(type atleast 3 character)</button>-->
+          <!--Books button-->
+          <button class="books px-1 rounded-3 "  type="Books">Books<i class="fa-solid fa-chevron-down"></i></button>
+          <!--Bag-->
+          <svg class="bag" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+            <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+          </svg>
+                <!--Become a seller button-->
+             <button class="seller px-3 my-2 rounded-3 "  type="Books">Become a seller</button>
+          <!--Join button-->
+          <button class="join px-3 my-2 rounded-3 "  type="Books">Join</button>
+      
+    </nav>
+    <hr>
+    <!--Favorite books image start-->
+    <img class="img-fluid rounded-3 " src="/Favorite-Books.webp" alt="Favorite-Books" width="90%" >
+  
+<!--Best selling Products-->
+
+<h3 class="header p-3">Best selling Products</h3>
+
+<div class="card border-0 ">
+  <div class="card-align ">
+    <section class="card1 pe-4 ps-5">
+  <img class="card-image ps-2 " src="/books-childtren-love.webp" alt="books-childtren-love" width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Bedtime Stories Part one</strong></div>
+    <div class="card-text">by <span>James N.Almeida</span></div>
+    <div class="card-rupees text-warning"><b>$100.00</b></div>
+  </div></section>
+ 
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Little-one-delight.webp"  width="250px" height="400px">
+  <div class="card-body ">
+    <div class="card-title m-0 p-0 "><strong>The Children story</strong></div>
+    <div class="card-text">by <span>Brandon T.Trigg</span></div>
+    <div class="card-rupees text-warning"><b>$220.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$250.00</del><span style="color: green;">
+      (save 12%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Little-toe.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Bedtime Stories Part 2</strong></div>
+    <div class="card-text">by <span>EARNESTINE N. PACE</span></div>
+    <div class="card-rupees text-warning"><b>$120.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$150.00</del><span style="color: green;">
+      (save 20%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Avengers.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Adventures of Pin Pin</strong></div>
+    <div class="card-text">by <span>Jenifer Wickham</span></div>
+    <div class="card-rupees text-warning"><b>$225.00 - $225.00</b>
+      </div></section>
+  </div>
+</div></div></div>
+<!--Popular Products-->
+<h3 class="header p-3">Popular Products</h3>
+
+<div class="card border-0 ">
+  <div class="card-align ">
+    <section class="card1 pe-4 ps-5">
+  <img class="card-image ps-2 " src="/books-childtren-love.webp" alt="books-childtren-love" width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Bedtime Stories Part one</strong></div>
+    <div class="card-text">by <span>James N.Almeida</span></div>
+    <div class="card-rupees text-warning"><b>$100.00</b></div>
+  </div></section>
+ 
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Little-one-delight.webp"  width="250px" height="400px">
+  <div class="card-body ">
+    <div class="card-title m-0 p-0 "><strong>The Children story</strong></div>
+    <div class="card-text">by <span>Brandon T.Trigg</span></div>
+    <div class="card-rupees text-warning"><b>$220.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$250.00</del><span style="color: green;">
+      (save 12%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Little-toe.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Bedtime Stories Part 2</strong></div>
+    <div class="card-text">by <span>EARNESTINE N. PACE</span></div>
+    <div class="card-rupees text-warning"><b>$120.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$150.00</del><span style="color: green;">
+      (save 20%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Avengers.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Adventures of Pin Pin</strong></div>
+    <div class="card-text">by <span>Jenifer Wickham</span></div>
+    <div class="card-rupees text-warning"><b>$225.00 - $225.00</b>
+      </div></section>
+  </div>
+</div></div></div>
+<!--Second row of popular products-->
+<div class="card border-0 ">
+  <div class="card-align ">
+    <section class="card1 pe-4 ps-5">
+  <img class="card-image ps-2 " src="/wizard.webp" alt="books-childtren-love" width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The kids story part one</strong></div>
+    <div class="card-text">by <span>DORIAN P PRICE</span></div>
+    <div class="card-rupees text-warning"><b>$75.00 - $80.00</b></div>
+  </div></section>
+ 
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Duchess war.webp"  width="250px" height="400px">
+  <div class="card-body ">
+    <div class="card-title m-0 p-0 "><strong>The Dutch Princess</strong></div>
+    <div class="card-text">by <span>Kelly White</span></div>
+    <div class="card-rupees text-warning"><b>$100.00 - $120.00</b></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/tess.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>Greedy Love</strong></div>
+    <div class="card-text">by <span>Jakob Dillon</span></div>
+    <div class="card-rupees text-warning"><b>$150.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$180.00</del><span style="color: green;">
+      (save 17%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Olivia.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Hero Alam Story</strong></div>
+    <div class="card-text">by <span>Dorian P Price</span></div>
+    <div class="card-rupees text-warning"><b>$300.00 - $350.00</b>
+      </div></section>
+  </div>
+</div></div></div>
+<!--Third row of popular products-->
+<div class="card border-0 ">
+  <div class="card-align ">
+    <section class="card1 pe-4 ps-5">
+  <img class="card-image ps-2 " src="/Heiress.webp" alt="books-childtren-love" width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>All About Love</strong></div>
+    <div class="card-text">by <span>DORIAN P PRICE</span></div>
+    <div class="card-rupees text-warning"><b>$200.00</b></div>
+  </div></section>
+ 
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Space force.webp"  width="250px" height="400px">
+  <div class="card-body ">
+    <div class="card-title m-0 p-0 "><strong>Space Force Second Chapter</strong></div>
+    <div class="card-text">by <span>DORIAN P PRICE</span></div>
+    <div class="card-rupees text-warning"><b>$150.00 - $152.00</b></div>
+  </div></section>
+
+  
+
+  
+  </div>
+</div></div></div>
+</div>
+
+<!--Which book you like to see? Section starts-->
+<h3 class="header p-3">Which book you like to see?</h3>
+<div class="section-3 pe-4 ps-5 m-1">
+  <div class="card-section3 pe-4">
+    <div class="card-section3-body">
+      <img class="card-section3-image rounded-3" src="/Images/science-fiction.webp" alt="science-fiction" width="150px">
+      <div class="card-section3-title mt-1">Science Fiction</div>
+    </div>
+</div>
+<!--Second pic-->
+<div class="card-section3 pe-4">
+  <div class="card-section3-body">
+    <img class="card-section3-image rounded-3" src="/Images/Literature.webp" alt="Literature" width="150px">
+    <div class="card-section3-title mt-1">Literature</div>
+  </div>
+</div>
+<!--3rd pic-->
+<div class="card-section3 pe-4">
+  <div class="card-section3-body">
+    <img class="card-section3-image rounded-3" src="/Images/Childrens.webp" alt="Literature" width="150px">
+    <div class="card-section3-title mt-1">Children's Literature</div>
+  </div>
+</div>
+<!--4th pic-->
+<div class="card-section3 pe-4">
+  <div class="card-section3-body">
+    <img class="card-section3-image rounded-3" src="/Images/Comic book.webp" alt="comic-books" width="150px">
+    <div class="card-section3-title mt-1">Comic books</div>
+  </div>
+</div>
+<!--5th pic-->
+<div class="card-section3 pe-4 me.">
+  <div class="card-section3-body">
+    <img class="card-section3-image rounded-3" src="/Images/Horror-fiction.webp" alt="comic-books" width="150px">
+    <div class="card-section3-title mt-1">Horror fiction</div>
+  </div>
+</div>
+<!--6th pic-->
+<div class="card-section3 pe-5">
+  <div class="card-section3-body">
+    <img class="card-section3-image rounded-3" src="/Images/Novels.webp" alt="comic-books" width="150px">
+    <div class="card-section3-title mt-1">Novels</div>
+  </div>
+</div>
+
+<!--Card-section-3 div--> 
+</div>
+  <!--section-3 parent class div-->
+</div>
+
+<!--Section-4 Starts-->
+<div class="section-4 pt-3 ps-5">
+  <div class="box-1  me-4">
+  <div class="card-section-4">
+    <div class="card-section4-image ">
+      <img src="/Images/Amazon.webp" alt="Amazon" width="300px" height="300px">
+    </div>
+  </div>
+  <!--card-section4 div end-->
+</div>
+<!--Pic 2nd-->
+<div class="box-2 me-4">
+  <div class="card-section-4">
+    <div class="card-section4-image ">
+      <img src="/Images/Limited-time-offer.webp" alt="Limited-time-offer" width="500px" height="350px">
+    </div>
+  </div>
+  <!--card-section4 div end-->
+</div>
+<!--Pic 3nd-->
+<div class="box-1 me-4">
+  <div class="card-section-4">
+    <div class="card-section4-image ">
+      <img src="/Images/Combo_banner_03.webp" alt="Combo_banner_03" width="300px" height="300px">
+    </div>
+  </div>
+  <!--card-section4 div end-->
+</div>
+  <!--Section-4 div end-->
+</div>
+
+
+<!--New Arrival Books-->
+<h3 class="header p-3">New Arrival Books</h3>
+
+<div class="card border-0 ">
+  <div class="card-align ">
+    <section class="card1 pe-4 ps-5">
+  <img class="card-image ps-2 " src="/books-childtren-love.webp" alt="books-childtren-love" width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Bedtime Stories Part one</strong></div>
+    <div class="card-text">by <span>James N.Almeida</span></div>
+    <div class="card-rupees text-warning"><b>$100.00</b></div>
+  </div></section>
+ 
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Little-one-delight.webp"  width="250px" height="400px">
+  <div class="card-body ">
+    <div class="card-title m-0 p-0 "><strong>The Children story</strong></div>
+    <div class="card-text">by <span>Brandon T.Trigg</span></div>
+    <div class="card-rupees text-warning"><b>$220.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$250.00</del><span style="color: green;">
+      (save 12%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Little-toe.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Bedtime Stories Part 2</strong></div>
+    <div class="card-text">by <span>EARNESTINE N. PACE</span></div>
+    <div class="card-rupees text-warning"><b>$120.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$150.00</del><span style="color: green;">
+      (save 20%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Avengers.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Adventures of Pin Pin</strong></div>
+    <div class="card-text">by <span>Jenifer Wickham</span></div>
+    <div class="card-rupees text-warning"><b>$225.00 - $225.00</b>
+      </div></section>
+  </div>
+</div></div></div>
+<!--Second row of new arrival books-->
+<div class="card border-0 ">
+  <div class="card-align ">
+    <section class="card1 pe-4 ps-5">
+  <img class="card-image ps-2 " src="/wizard.webp" alt="books-childtren-love" width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The kids story part one</strong></div>
+    <div class="card-text">by <span>DORIAN P PRICE</span></div>
+    <div class="card-rupees text-warning"><b>$75.00 - $80.00</b></div>
+  </div></section>
+ 
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Duchess war.webp"  width="250px" height="400px">
+  <div class="card-body ">
+    <div class="card-title m-0 p-0 "><strong>The Dutch Princess</strong></div>
+    <div class="card-text">by <span>Kelly White</span></div>
+    <div class="card-rupees text-warning"><b>$100.00 - $120.00</b></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/tess.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>Greedy Love</strong></div>
+    <div class="card-text">by <span>Jakob Dillon</span></div>
+    <div class="card-rupees text-warning"><b>$150.00</b>&nbsp;&nbsp;<del style="color: #212529; font-size: small;">$180.00</del><span style="color: green;">
+      (save 17%)</span></div>
+  </div></section>
+
+  <section class="card1 pe-4">
+  <img class="card-image ps-2 " src="/Olivia.webp"  width="250px" height="400px">
+  <div class="card-body">
+    <div class="card-title m-0 p-0 "><strong>The Hero Alam Story</strong></div>
+    <div class="card-text">by <span>Dorian P Price</span></div>
+    <div class="card-rupees text-warning"><b>$300.00 - $350.00</b>
+      </div></section>
+  </div>
+</div></div></div>
+
+<!--Top Authors-->
+<h3 class="header p-3">Top Authors</h3>
+
+<div class="authors pe-4 ps-5 ">
+  <div class="card-author pe-4 me-4">
+    <img class="card-author-image rounded-circle " src="/Images/Dorian P Price.webp " alt="Dorian" width="180px" height="180px">
+    <div class="card-author-title ps-5 mt-2"><strong>Dorian P Price</strong>
+     </div>
+  </div>
+<!--Author 2-->
+ 
+    <div class="card-author pe-4 me-4">
+      <img class="card-author-image rounded-circle " src="/Images/BRANDON T. TRIGG.webp " alt="BRANDON" width="180px" height="180px">
+      <div class="card-author-title ps-5 mt-2"><strong>Brandon T. Trigg</strong> </div>
+    </div>
+    <!--Author 3-->
+  
+    <div class="card-author pe-4 me-4">
+      <img class="card-author-image rounded-circle " src="/Images/JENIFER WICKHAM.webp " alt="Jenifer" width="180px" height="180px">
+      <div class="card-author-title ps-5 mt-2"><strong>Jenifer Wickham</strong> </div>
+    </div>
+     <!--Author 4-->
+  
+    <div class="card-author pe-4">
+      <img class="card-author-image rounded-circle " src="/Images/Kelly white.webp " alt="Kelly" width="180px" height="180px">
+      <div class="card-author-title ps-5 mt-2"><strong>Kelly White</strong> </div>
+    </div>
+       <!--Author 5-->
+  
+    <div class="card-author">
+      <img class="card-author-image rounded-circle " src="/Images/KELTON BENJAMIN.webp " alt="KELTON" width="180px" height="180px">
+      <div class="card-author-title ps-5 mt-2"><strong>Kelton Benjamin</strong> </div>
+    </div>
+       
+    <!--Author div end-->
+</div>
+
+
+  <!--Top Manufactures-->
+  <h3 class="header p-3">Top Manufactures</h3>
+  <!--Parent class-->
+  <div class="manufacture ps-3 d-flex">
+  
+    <div class="card-manufacture rounded-2 d-flex flex-row p-1 " >
+    
+        <img class="card-manufacture-image p-2" src="/Images/w.webp" alt="" width="80px">
+    
+      <div class="card-manufacture-body">
+        <div class="card-manufacture-title mt-2 "><strong>Wonder Publications</strong></div>
+        <a class="icon text-decoration-none  me-2" href="https://www.facebook.com/redqinc/" target="_blank">
+          <i class="fa-brands fa-facebook mt-2"></i>
+        </a>
+        <a class="icon text-decoration-none me-2" href="https://www.instagram.com/redqinc/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a class="icon text-decoration-none" href="https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw" target="_blank">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+      </div>
+    </div>
+    <!--2nd pic-->
+    <div class="card-manufacture rounded-2 d-flex flex-row p-2 ms-4">
+      <img class="card-manufacture-image p-2" src="/Images/s.webp" alt="" width="80px">
+    <div class="card-manufacture-body">
+      <div class="card-manufacture-title mt-2 ps-2 "><strong>Super Publications</strong></div>
+      <a class="icon text-decoration-none ps-2 me-2" href="https://www.facebook.com/redqinc/" target="_blank">
+        <i class="fa-brands fa-facebook mt-2"></i>
+      </a>
+      <a class="icon text-decoration-none me-2" href="https://www.instagram.com/redqinc/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a class="icon text-decoration-none" href="https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw" target="_blank">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </div>
+  </div>
+  <!--3rd pic-->
+  <div class="card-manufacture rounded-2 d-flex flex-row p-2 ms-4">
+    <img class="card-manufacture-image p-2" src="/Images/t.webp" alt="" width="80px">
+  <div class="card-manufacture-body">
+    <div class="card-manufacture-title mt-2 ps-2 "><strong>Jeremy Publications</strong></div>
+    <a class="icon text-decoration-none ps-2 me-2" href="https://www.facebook.com/redqinc/" target="_blank">
+      <i class="fa-brands fa-facebook mt-2"></i>
+    </a>
+    <a class="icon text-decoration-none me-2" href="https://www.instagram.com/redqinc/" target="_blank">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a class="icon text-decoration-none" href="https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw" target="_blank">
+      <i class="fa-brands fa-youtube"></i>
+    </a>
+  </div>
+</div>
+<!--4th pic-->
+<div class="card-manufacture rounded-2 d-flex flex-row p-2 ms-4">
+  <img class="card-manufacture-image p-2" src="/Images/w-dark.webp" alt="" width="80px">
+<div class="card-manufacture-body">
+  <div class="card-manufacture-title mt-2 ps-2 "><strong>Too cool Publications</strong></div>
+  <a class="icon text-decoration-none ps-2 me-2" href="https://www.facebook.com/redqinc/" target="_blank">
+    <i class="fa-brands fa-facebook mt-2"></i>
+  </a>
+  <a class="icon text-decoration-none me-2" href="https://www.instagram.com/redqinc/" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a class="icon text-decoration-none" href="https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw" target="_blank">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+</div>
+</div>
+<!--5th pic-->
+<div class="card-manufacture rounded-2 d-flex flex-row p-2 ms-4">
+  <img class="card-manufacture-image p-2" src="/Images/p.webp" alt="" width="80px">
+<div class="card-manufacture-body">
+  <div class="card-manufacture-title mt-2 ps-2 "><strong>Poppy Publications</strong></div>
+  <a class="icon text-decoration-none ps-2 me-2" href="https://www.facebook.com/redqinc/" target="_blank">
+    <i class="fa-brands fa-facebook mt-2"></i>
+  </a>
+  <a class="icon text-decoration-none me-2" href="https://www.instagram.com/redqinc/" target="_blank">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a class="icon text-decoration-none" href="https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw" target="_blank">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+</div>
+</div>
+     <!--manufacture div end-->
+  </div>
+
+  <!--PICKBAZAAR APP-->
+ 
+<div class="app m-5">
+  <h5 class="heading-app ms-5">THE PICKBAZAAR APP</h5>
+<p class="app-h display-6 ms-5 ">Make your online shop easier<br>with our <b>mobile app</b></p>
+ 
+  <img class="app-img" src="/Images/app-store (1).webp" alt="" width="200px" >
+  <img class="app-img" src="/Images/google.webp" alt="" width="200px">
+  <img class="app-store"src="/Images/app-store -pickbazaar(3).webp" alt="" width="300px">
+   <!--Close of app div-->
+</div>
+
+<!--Bottom section-->
+<div class="bottom d-flex ps-3 mt-5">
+<div class="content">
+  <img class="content-img mb-3" src="/pickbazaar.webp" alt="" width="120px">
+  <p>2429 River Drive, Suite 35 Cottonhall, CA <br>2296 United Kingdom</p>
+  <p>dummy@dummy.com<br>
+    +1 256-698-0694</p>
+</div>
+<!--content 2-->
+<div class="content ">
+  <h5 class="heading ps-5" >Explore</h5>
+  <ul class="content-unordered ">
+    <li class="content-list m-3">About us</li>
+    <li class="content-list m-3">Sitemap</li>
+    <li class="content-list m-3">Bookmarks</li>
+    <li class="content-list m-3">Sign in/Join</li>
+  </ul>
+</div>
+<!--content 3-->
+<div class="content ms-4">
+  <h5 class="heading ps-5" >Customer Service</h5>
+  <ul class="content-unordered ">
+    <li class="content-list m-3">FAQ & Helps</li>
+    <li class="content-list m-3">Returns</li>
+    <li class="content-list m-3">Accessibility</li>
+    <li class="content-list m-3">Contact us</li>
+    <li class="content-list m-3">Store pickup</li>
+  </ul>
+</div>
+<!--content 4-->
+<div class="content ms-4">
+  <h5 class="heading ps-5" >Our Information</h5>
+  <ul class="content-unordered ">
+    <li class="content-list m-3">Privacy Policy update</li>
+    <li class="content-list m-3">Terms & Conditions</li>
+    <li class="content-list m-3">Return Policy</li>
+    <li class="content-list m-3">Contact us</li>
+    <li class="content-list m-3">Sitemap</li>
+  </ul>
+</div>
+<!--content 4-->
+<div class="content ms-4">
+  <h5 class="heading ps-5" >Subscribe Now</h5>
+  <p class="para fs-10px">Subscribe your email for newsletter<br> and featured news based on your interest</p>
+  <input class="mail ms-5" type="email" name="email" id="email" placeholder="Write email here >>>">
+<!--bottom div end-->
+</div>
+</div>
+
+
+<!--Footer-->
+<div class="footer ps-3 mt-5 d-flex ">
+  <p class="para1" >&copy;Copyright 2023 <strong>RedQ Inc.</strong>All rights reserved.</p>
+<div class="footer-details ">
+<a href="https://shop-pickbazar-rest.vercel.app/">
+  <img class="img me-4" src="/Images/master.png" alt="" width="50px">
+</a>
+<a href="https://shop-pickbazar-rest.vercel.app/">
+  <img class="img me-4" src="/Images/skrill.png" alt="" width="50px">
+</a>
+<a href="https://shop-pickbazar-rest.vercel.app/">
+  <img class="img me-4" src="/Images/paypal.png" alt="" width="50px">
+</a>
+<a href="https://shop-pickbazar-rest.vercel.app/">
+  <img class="img me-4" src="/Images/visa.png" alt="" width="50px">
+</a>
+<a href="https://shop-pickbazar-rest.vercel.app/">
+  <img src="/Images/discover.png" alt="" width="50px">
+</a>
+</div>
+</div>
+<!--JS cdn-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

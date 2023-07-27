@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+}
+body {
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: #212529;
+}
+.navbar {
+  font-size: 14px;
+}
+.fa-search {
+  width: 350px;
+}
+.books {
+  border: 1px solid #b6bec5;
+  margin-right: 20px;
+}
+.bag {
+  margin-right: 20px;
+}
+.books i {
+  padding: 5px;
+}
+.seller,
+.join {
+  background-color: #009f7f;
+  color: white;
+  margin-right: 20px;
+  border: 1px solid #b6bec5;
+  padding: 4px;
+}
+
+.img-fluid {
+  margin: 0 50px 0 50px;
+}
+a.nav-link {
+  color: #212529;
+}
+a.nav-link:hover {
+  color: #009f7f;
+}
+.card-text {
+  font-size: small;
+  color: #212529;
+}
+.card-text span:hover {
+  color: orange;
+}
+.card-title:hover {
+  color: orange;
+}
+.card-image {
+  border-radius: 25px;
+}
+.card-align {
+  display: flex;
+}
+.section-3 {
+  display: flex;
+}
+.section-4 {
+  display: flex;
+}
+.box-1 {
+  width: 300px;
+  height: 360px;
+  background-color: rgb(243, 230, 243);
+}
+.card-author-image {
+  border: 1px solid rgb(229, 226, 226);
+  padding: 3px;
+}
+.card-author-title:hover {
+  color: orange;
+}
+.authors {
+  display: flex;
+}
+
+.card-manufacture {
+  border: 1px solid rgb(229, 226, 226);
+  background-color: rgb(255, 255, 255);
+}
+.icon {
+  color: #212529;
+}
+.icon:hover {
+  color: #009f7f;
+}
+.card-manufacture-title:hover {
+  color: orange;
+}
+.card-manufacture-title {
+  font-size: 12px;
+}
+.card-manufacture-image {
+  border-radius: 50px;
+  color: #212529;
+}
+
+.content-list {
+  list-style-type: none;
+}
+.footer {
+  height: 50px;
+  position: relative;
+  padding: 10px;
+}
+.footer-details {
+  position: absolute;
+  right: 0;
+  padding-right: 30px;
+}
+.footer-details a {
+  text-decoration: none;
+}
+.para1 {
+  font-size: 14px;
+}
+.content li,
+p {
+  font-size: 12px;
+}
+.content h5 {
+  font-size: 14px;
+}
+.app {
+  border-radius: 20px;
+  border: 1px solid rgb(229, 226, 226);
+  background-image: url(/Images/bb.webp);
+}
+.heading-app {
+  margin-top: 150px;
+}
+.app-img {
+  margin-left: 50px;
+}
+.app-store {
+  margin-left: 120px;
+}
